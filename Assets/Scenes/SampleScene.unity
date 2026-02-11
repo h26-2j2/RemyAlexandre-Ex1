@@ -167,8 +167,9 @@ GameObject:
   - component: {fileID: 277535068}
   - component: {fileID: 277535070}
   - component: {fileID: 277535069}
+  - component: {fileID: 277535071}
   m_Layer: 0
-  m_Name: Cercle Bombe1 (3)
+  m_Name: Cercle Bombe4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -248,7 +249,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_MaskInteraction: 0
   m_Sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
   m_Color: {r: 0.7830189, g: 0, b: 0, a: 1}
@@ -260,6 +261,18 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!114 &277535071
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 277535067}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5897ef15f0324f91891903b98276d5d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
 --- !u!1 &534694475
 GameObject:
   m_ObjectHideFlags: 0
@@ -271,8 +284,9 @@ GameObject:
   - component: {fileID: 534694476}
   - component: {fileID: 534694478}
   - component: {fileID: 534694477}
+  - component: {fileID: 534694479}
   m_Layer: 0
-  m_Name: Cercle Bombe1 (5)
+  m_Name: Cercle Bombe6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -287,7 +301,7 @@ Transform:
   m_GameObject: {fileID: 534694475}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.1154, y: -3.94, z: 0}
+  m_LocalPosition: {x: 0, y: -3.94, z: 0}
   m_LocalScale: {x: 0.7264603, y: 0.7264603, z: 0.7264603}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -352,7 +366,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_MaskInteraction: 0
   m_Sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
   m_Color: {r: 0.7830189, g: 0, b: 0, a: 1}
@@ -364,6 +378,18 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!114 &534694479
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 534694475}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5897ef15f0324f91891903b98276d5d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
 --- !u!1 &635922689
 GameObject:
   m_ObjectHideFlags: 0
@@ -375,8 +401,9 @@ GameObject:
   - component: {fileID: 635922690}
   - component: {fileID: 635922692}
   - component: {fileID: 635922691}
+  - component: {fileID: 635922693}
   m_Layer: 0
-  m_Name: Cercle Bombe1 (1)
+  m_Name: Cercle Bombe2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -391,7 +418,7 @@ Transform:
   m_GameObject: {fileID: 635922689}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.74926, y: 4.14, z: 0}
+  m_LocalPosition: {x: 0.74926, y: 4.5, z: 0}
   m_LocalScale: {x: 0.7264603, y: 0.7264603, z: 0.7264603}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -456,7 +483,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_MaskInteraction: 0
   m_Sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
   m_Color: {r: 0.7830189, g: 0, b: 0, a: 1}
@@ -468,6 +495,18 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!114 &635922693
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 635922689}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5897ef15f0324f91891903b98276d5d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
 --- !u!1 &738174254
 GameObject:
   m_ObjectHideFlags: 0
@@ -481,7 +520,7 @@ GameObject:
   - component: {fileID: 738174255}
   - component: {fileID: 738174258}
   m_Layer: 0
-  m_Name: Hexagon Flat Top (3)
+  m_Name: Hexagone4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -546,7 +585,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_MaskInteraction: 0
   m_Sprite: {fileID: -712631045867808456, guid: b670ab75dde984907b8570040daa08c5, type: 3}
   m_Color: {r: 0.6037736, g: 0.32354513, b: 0, a: 1}
@@ -568,8 +607,8 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 5.36601, y: 3.4154298, z: 0}
-  m_LocalScale: {x: 1.0795, y: 1.0795, z: 1.0795}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 1.2, y: 1.2, z: 1.2}
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 2105138015}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -585,8 +624,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dd5c65ce5a38f4622865ed57826aabc3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MouvementEnnemi
-  vitesseY: 0.01
-  vitesseRotation: 0
+  vitesseY: 0.007
+  vitesseRotation: 0.05
+  tauxAggrandissement: 0.005
 --- !u!1 &878885318
 GameObject:
   m_ObjectHideFlags: 0
@@ -600,7 +640,7 @@ GameObject:
   - component: {fileID: 878885319}
   - component: {fileID: 878885322}
   m_Layer: 0
-  m_Name: Hexagon Flat Top
+  m_Name: Hexagone1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -665,7 +705,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_MaskInteraction: 0
   m_Sprite: {fileID: -712631045867808456, guid: b670ab75dde984907b8570040daa08c5, type: 3}
   m_Color: {r: 0.6037736, g: 0.32354513, b: 0, a: 1}
@@ -687,8 +727,8 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -3, y: -2.8745701, z: 0}
-  m_LocalScale: {x: 1.0795, y: 1.0795, z: 1.0795}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 1.2, y: 1.2, z: 1.2}
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 2105138015}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -704,8 +744,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dd5c65ce5a38f4622865ed57826aabc3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MouvementEnnemi
-  vitesseY: 0.01
-  vitesseRotation: 0
+  vitesseY: 0.007
+  vitesseRotation: 0.05
+  tauxAggrandissement: 0.005
 --- !u!1 &1138302535
 GameObject:
   m_ObjectHideFlags: 0
@@ -875,7 +916,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_MaskInteraction: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 75f5f34dc1b5347e0b8351032682f224, type: 3}
   m_Color: {r: 0, g: 0.60335493, b: 1, a: 1}
@@ -897,8 +938,8 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0.70710677, w: 0.7071068}
   m_LocalPosition: {x: -7.67, y: -4, z: 0}
-  m_LocalScale: {x: 1.0795, y: 1.0796, z: 1.0795}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 1, y: 1.0000926, z: 1}
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -90}
@@ -932,7 +973,7 @@ GameObject:
   - component: {fileID: 1258453126}
   - component: {fileID: 1258453125}
   m_Layer: 0
-  m_Name: Cercle Bombe1 (4)
+  m_Name: Cercle Bombe5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1035,8 +1076,9 @@ GameObject:
   - component: {fileID: 1275227737}
   - component: {fileID: 1275227739}
   - component: {fileID: 1275227738}
+  - component: {fileID: 1275227740}
   m_Layer: 0
-  m_Name: Cercle Bombe1 (2)
+  m_Name: Cercle Bombe3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1116,7 +1158,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_MaskInteraction: 0
   m_Sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
   m_Color: {r: 0.7830189, g: 0, b: 0, a: 1}
@@ -1128,6 +1170,18 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!114 &1275227740
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1275227736}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5897ef15f0324f91891903b98276d5d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
 --- !u!1 &1325853378
 GameObject:
   m_ObjectHideFlags: 0
@@ -1139,6 +1193,7 @@ GameObject:
   - component: {fileID: 1325853381}
   - component: {fileID: 1325853380}
   - component: {fileID: 1325853379}
+  - component: {fileID: 1325853382}
   m_Layer: 0
   m_Name: Cercle Bombe1
   m_TagString: Untagged
@@ -1205,7 +1260,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_MaskInteraction: 0
   m_Sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
   m_Color: {r: 0.7830189, g: 0, b: 0, a: 1}
@@ -1232,6 +1287,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 127629812}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1325853382
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1325853378}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5897ef15f0324f91891903b98276d5d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
 --- !u!1 &1470754331
 GameObject:
   m_ObjectHideFlags: 0
@@ -1245,7 +1312,7 @@ GameObject:
   - component: {fileID: 1470754332}
   - component: {fileID: 1470754335}
   m_Layer: 0
-  m_Name: Hexagon Flat Top (2)
+  m_Name: Hexagone3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1310,7 +1377,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_MaskInteraction: 0
   m_Sprite: {fileID: -712631045867808456, guid: b670ab75dde984907b8570040daa08c5, type: 3}
   m_Color: {r: 0.6037736, g: 0.32354513, b: 0, a: 1}
@@ -1332,8 +1399,8 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -3.24399, y: 4.37543, z: 0}
-  m_LocalScale: {x: 1.0795, y: 1.0795, z: 1.0795}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 1.2, y: 1.2, z: 1.2}
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 2105138015}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1349,8 +1416,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dd5c65ce5a38f4622865ed57826aabc3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  vitesseY: 0.01
-  vitesseRotation: 0
+  vitesseY: 0.007
+  vitesseRotation: 0.05
+  tauxAggrandissement: 0.005
 --- !u!1 &1868316948
 GameObject:
   m_ObjectHideFlags: 0
@@ -1501,7 +1569,7 @@ GameObject:
   - component: {fileID: 1984169062}
   - component: {fileID: 1984169065}
   m_Layer: 0
-  m_Name: Hexagon Flat Top (1)
+  m_Name: Hexagone2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1566,7 +1634,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_MaskInteraction: 0
   m_Sprite: {fileID: -712631045867808456, guid: b670ab75dde984907b8570040daa08c5, type: 3}
   m_Color: {r: 0.6037736, g: 0.32354513, b: 0, a: 1}
@@ -1588,8 +1656,8 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 3.13601, y: -0.44457, z: 0}
-  m_LocalScale: {x: 1.0795, y: 1.0795, z: 1.0795}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 1.2, y: 1.2, z: 1.2}
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 2105138015}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1605,8 +1673,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dd5c65ce5a38f4622865ed57826aabc3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MouvementEnnemi
-  vitesseY: 0.01
-  vitesseRotation: 0
+  vitesseY: 0.007
+  vitesseRotation: 0.05
+  tauxAggrandissement: 0.005
 --- !u!1 &2058451470
 GameObject:
   m_ObjectHideFlags: 0
@@ -1620,7 +1689,7 @@ GameObject:
   - component: {fileID: 2058451471}
   - component: {fileID: 2058451474}
   m_Layer: 0
-  m_Name: Hexagon Flat Top (4)
+  m_Name: Hexagone5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1685,7 +1754,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_MaskInteraction: 0
   m_Sprite: {fileID: -712631045867808456, guid: b670ab75dde984907b8570040daa08c5, type: 3}
   m_Color: {r: 0.6037736, g: 0.32354513, b: 0, a: 1}
@@ -1707,8 +1776,8 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 7, y: -2.8545702, z: 0}
-  m_LocalScale: {x: 1.0795, y: 1.0795, z: 1.0795}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 1.2, y: 1.2, z: 1.2}
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 2105138015}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1724,8 +1793,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dd5c65ce5a38f4622865ed57826aabc3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MouvementEnnemi
-  vitesseY: 0.01
-  vitesseRotation: 0
+  vitesseY: 0.007
+  vitesseRotation: 0.05
+  tauxAggrandissement: 0.005
 --- !u!1 &2105138014
 GameObject:
   m_ObjectHideFlags: 0
