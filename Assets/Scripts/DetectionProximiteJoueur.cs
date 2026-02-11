@@ -10,7 +10,7 @@ public class DetectionProximiteJoueur : MonoBehaviour
         cible = FindAnyObjectByType<DeplacementJoueur>().gameObject;
         if (!cible)
         {
-            Debug.LogWarning("Vous devez avoir un objet avec le script DeplacementJoueur dans la scène");
+            Debug.LogWarning("Vous devez avoir un objet avec le script DeplacementJoueur dans la scene");
         }
     }
 
