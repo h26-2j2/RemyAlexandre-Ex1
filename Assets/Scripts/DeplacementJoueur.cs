@@ -14,13 +14,15 @@ public class DeplacementJoueur : MonoBehaviour
     public float positionZoneMinY = -3f;
     public float positionZoneMaxY = 3f;
     GameObject zoneArrivee;
+    GameObject cercleObstacles;
 
     void Start()
     {
         positionInitialeJoueur = transform.position;
 
-        //On cherche l'objet sur la scène
+        //On cherche les objets sur la scène
         zoneArrivee = FindAnyObjectByType<ZoneArrivee>().gameObject;
+        cercleObstacles = FindAnyObjectByType<PositionObstacles>().gameObject;
 
         if (!zoneArrivee)
         {
@@ -82,8 +84,9 @@ public class DeplacementJoueur : MonoBehaviour
 
     public void ReplacerZone()
     {
-        //On replace le joueur à sa position d'origine et on place la zone arrivee de manière aléatoire en Y
+        //On replace le joueur à sa position d'origine et on place la zone arrivée de manière aléatoire en Y
         zoneArrivee.transform.position = new Vector2(positionZoneX, Random.Range(positionZoneMinY, positionZoneMaxY));
+        cercleObstacles.transform.position = transform.position = new Vector2(Random.Range(-5, 8), Random.Range(-4, 5)); // Position random d'une zone de la map
     }
 
     // Fonction qui sert à replacer le joueur.

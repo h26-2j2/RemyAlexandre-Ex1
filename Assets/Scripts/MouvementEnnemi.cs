@@ -31,7 +31,7 @@ public class MouvementEnnemi : MonoBehaviour
 
     void Update()
     {
-        transform.position = new Vector2(transform.position.x, transform.position.y + vitesseY); // Translation
+        transform.position = new Vector2(transform.position.x, transform.position.y + vitesseY * Time.deltaTime); // Translation avec un meilleur frame rate j'espère
 
         if (transform.position.y > 6.0f) // Dépassement de la map vers le bas
         {
@@ -43,12 +43,12 @@ public class MouvementEnnemi : MonoBehaviour
         }
 
 
-        transform.Rotate(0, 0, vitesseRotation); // Rotation sur soi-même
+        transform.Rotate(0, 0, vitesseRotation * Time.deltaTime); // Rotation sur soi-même
 
 
         if (grosseurMax == false)
         {
-            float nouvelleGrosseur = transform.localScale.x + tauxAggrandissement;
+            float nouvelleGrosseur = transform.localScale.x + tauxAggrandissement * Time.deltaTime;
             if (nouvelleGrosseur >= 2.0f) // Max scale, ennemi dans les airs
             {
                 grosseurMax = true;
@@ -57,7 +57,7 @@ public class MouvementEnnemi : MonoBehaviour
         }
         else
         {
-            float nouvelleGrosseur = transform.localScale.x - tauxAggrandissement; 
+            float nouvelleGrosseur = transform.localScale.x - tauxAggrandissement * Time.deltaTime; 
             if (nouvelleGrosseur <= 1.2f) // Min scale, ennemi au sol
             {
                 grosseurMax = false;
