@@ -23,7 +23,7 @@ public class DeplacementJoueur : MonoBehaviour
 
     void Start()
     {
-        positionInitialeJoueur = transform.position;
+        positionInitialeJoueur = new Vector2(-7.67f, -4.0f);
 
         //On cherche les objets sur la scène
         zoneArrivee = FindAnyObjectByType<ZoneArrivee>().gameObject;
@@ -35,7 +35,7 @@ public class DeplacementJoueur : MonoBehaviour
         }
         else
         {
-            nouvellePositionY = Random.Range(positionZoneMinY, positionZoneMaxY); //Une 1ere position de zone d'arrivée aléatoire en Y pour commencer
+            nouvellePositionY = Random.Range(positionZoneMinY, positionZoneMaxY); //Une 1ere position aléatoire en Y de zone d'arrivée pour commencer
             zoneArrivee.transform.position = new Vector2(positionZoneX, nouvellePositionY);
             ReplacerZone();
         }
